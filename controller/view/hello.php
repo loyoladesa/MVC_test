@@ -11,14 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        define('ROOT_PATH', dirname(__FILE__));
-        
-        require_once ('./controller/HelloController.php');
-        
-        $controller = new HelloController();
-        $controller->setView('primeira.php');
-        require_once $controller->getView();       
-        
+        // put your code here
+        echo 'Hello world!';
         ?>
     </body>
 </html>
